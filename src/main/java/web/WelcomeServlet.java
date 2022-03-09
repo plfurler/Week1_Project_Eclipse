@@ -34,7 +34,7 @@ public class WelcomeServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Eclipse - Servlet WelcomeServlet</title>");            
+            out.println("<title>Eclipse - WelcomeServlet</title>");            
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Welcome to my first servlet WelcomeServlet, context path at " + request.getContextPath() + "</h1>");
